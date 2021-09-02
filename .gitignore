@@ -1,3 +1,6 @@
+# Framework
+.shadow-cljs
+
 # Logs
 logs
 *.log

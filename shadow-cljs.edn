@@ -1,0 +1,16 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/main"]
+
+ :dependencies
+ []
+
+ :builds
+ {:library
+  {:target :node-library
+   :output-to "cljs-core.js"
+   :exports-var webwallet.core/exports
+  ;;  :devtools
+  ;;  {:after-load webwallet.api/start!
+  ;;   :before-load webwallet.api/stop!}
+   }}}

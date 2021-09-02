@@ -1,0 +1,26 @@
+{
+  "name": "@webwallet/cljs-core",
+  "version": "1.0.0",
+  "description": "ClojureScript implementation of webwallet's core functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/webwallet/cljs-core.git"
+  },
+  "keywords": [
+    "webwallet",
+    "clojurescript"
+  ],
+  "author": "webwallet.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webwallet/cljs-core/issues"
+  },
+  "homepage": "https://github.com/webwallet/cljs-core#readme",
+  "devDependencies": {
+    "shadow-cljs": "^2.15.8"
+  }
+}
