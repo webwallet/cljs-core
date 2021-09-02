@@ -22,5 +22,8 @@
   "homepage": "https://github.com/webwallet/cljs-core#readme",
   "devDependencies": {
     "shadow-cljs": "^2.15.8"
+  },
+  "dependencies": {
+    "elliptic": "^6.5.4"
   }
 }
