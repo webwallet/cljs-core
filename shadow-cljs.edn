@@ -3,7 +3,7 @@
  ["src"]
 
  :dependencies
- []
+ [[metosin/malli "0.7.0-SNAPSHOT"]]
 
  :builds
  {:library
