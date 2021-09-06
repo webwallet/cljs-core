@@ -3,12 +3,13 @@
  ["src"]
 
  :dependencies
- [[metosin/malli "0.7.0-SNAPSHOT"]]
+ [[metosin/malli "0.7.0-SNAPSHOT"]
+  [borkdude/sci "0.2.6"]]
 
  :builds
  {:library
   {:target :node-library
-   :output-to "cljs-core.js"
+   :output-to "index.js"
    :exports-var webwallet.core/exports
   ;;  :devtools
   ;;  {:after-load webwallet.api/start!
